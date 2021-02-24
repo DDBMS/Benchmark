@@ -64,3 +64,93 @@ Failed requests:        0
 Total transferred:      0 bytes
 Total body sent:        3532320
 HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking t22.tfcis.org (be patient).....done
+
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        t22.tfcis.org
+Server Port:            10022
+
+Document Path:          /file/upload
+Document Length:        88 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.572 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6990 bytes
+Total body sent:        13440
+HTML transferred:       2640 bytes
+Requests per second:    52.44 [#/sec] (mean)
+Time per request:       19.071 [ms] (mean)
+Time per request:       19.071 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.93 [Kbytes/sec] received
+                        22.94 kb/s sent
+                        34.87 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:    16   19   6.1     17      41
+Waiting:       16   19   6.1     17      40
+Total:         16   19   6.1     17      41
+
+Percentage of the requests served within a certain time (ms)
+  50%     17
+  66%     18
+  75%     18
+  80%     19
+  90%     24
+  95%     40
+  98%     41
+  99%     41
+ 100%     41 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking t22.tfcis.org (be patient).....done
+
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        t22.tfcis.org
+Server Port:            10022
+
+Document Path:          /file/upload
+Document Length:        95 bytes
+
+Concurrency Level:      1
+Time taken for tests:   258.067 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      7200 bytes
+Total body sent:        810539970
+HTML transferred:       2850 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8602.238 [ms] (mean)
+Time per request:       8602.238 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+                        3067.20 kb/s sent
+                        3067.22 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.0      0       6
+Processing:  5773 8602 2437.4   8381   16897
+Waiting:     4515 7043 2320.9   6578   14956
+Total:       5773 8602 2437.2   8382   16897
+
+Percentage of the requests served within a certain time (ms)
+  50%   8382
+  66%   8798
+  75%   9557
+  80%  10204
+  90%  12638
+  95%  12840
+  98%  16897
+  99%  16897
+ 100%  16897 (longest request)

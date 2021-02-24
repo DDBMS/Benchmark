@@ -52,4 +52,92 @@ Benchmarking t22.tfcis.org (be patient)...This is ApacheBench, Version 2.3 <$Rev
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
+Benchmarking t22.tfcis.org (be patient)...This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
 Benchmarking t22.tfcis.org (be patient)...
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        t22.tfcis.org
+Server Port:            10022
+
+Document Path:          /file/upload
+Document Length:        88 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.550 seconds
+Complete requests:      28
+Failed requests:        0
+Total transferred:      6524 bytes
+Total body sent:        12992
+HTML transferred:       2464 bytes
+Requests per second:    50.91 [#/sec] (mean)
+Time per request:       19.642 [ms] (mean)
+Time per request:       19.642 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.58 [Kbytes/sec] received
+                        23.07 kb/s sent
+                        34.65 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       1
+Processing:    16   19   5.7     18      47
+Waiting:       16   19   5.7     17      47
+Total:         16   19   5.7     18      47
+
+Percentage of the requests served within a certain time (ms)
+  50%     18
+  66%     19
+  75%     20
+  80%     20
+  90%     20
+  95%     22
+  98%     47
+  99%     47
+ 100%     47 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking t22.tfcis.org (be patient).....done
+
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        t22.tfcis.org
+Server Port:            10022
+
+Document Path:          /file/upload
+Document Length:        95 bytes
+
+Concurrency Level:      1
+Time taken for tests:   226.072 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      7200 bytes
+Total body sent:        810539970
+HTML transferred:       2850 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7535.736 [ms] (mean)
+Time per request:       7535.736 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+                        3501.29 kb/s sent
+                        3501.32 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:  5977 7535 880.2   7371    9299
+Waiting:     4566 6007 757.9   5953    7349
+Total:       5977 7536 880.2   7371    9300
+
+Percentage of the requests served within a certain time (ms)
+  50%   7371
+  66%   7846
+  75%   7974
+  80%   8276
+  90%   9133
+  95%   9198
+  98%   9300
+  99%   9300
+ 100%   9300 (longest request)
