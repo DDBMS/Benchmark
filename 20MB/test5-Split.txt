@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking t22.tfcis.org (be patient).....done
+
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        t22.tfcis.org
+Server Port:            10022
+
+Document Path:          /file/upload
+Document Length:        22088 bytes
+
+Concurrency Level:      1
+Time taken for tests:   119.707 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      668400 bytes
+Total body sent:        600005430
+HTML transferred:       662640 bytes
+Requests per second:    0.25 [#/sec] (mean)
+Time per request:       3990.245 [ms] (mean)
+Time per request:       3990.245 [ms] (mean, across all concurrent requests)
+Transfer rate:          5.45 [Kbytes/sec] received
+                        4894.79 kb/s sent
+                        4900.25 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        4    7   3.9      6      23
+Processing:  3400 3983 329.0   4026    4921
+Waiting:      136  573 163.2    582     891
+Total:       3405 3990 329.6   4044    4926
+
+Percentage of the requests served within a certain time (ms)
+  50%   4044
+  66%   4091
+  75%   4178
+  80%   4282
+  90%   4350
+  95%   4366
+  98%   4926
+  99%   4926
+ 100%   4926 (longest request)
