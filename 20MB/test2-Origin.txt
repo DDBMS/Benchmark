@@ -1,4 +1,4 @@
-This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -9,27 +9,37 @@ Server Software:        Werkzeug/1.0.1
 Server Hostname:        t22.tfcis.org
 Server Port:            10022
 
-Document Path:          /file/upload
-Document Length:        22088 bytes
+Document Path:          /file/upload2
+Document Length:        95 bytes
 
 Concurrency Level:      1
-Time taken for tests:   2.336 seconds
-Complete requests:      1
+Time taken for tests:   250.324 seconds
+Complete requests:      30
 Failed requests:        0
-Non-2xx responses:      1
-Total transferred:      22280 bytes
-Total body sent:        20000181
-HTML transferred:       22088 bytes
-Requests per second:    0.43 [#/sec] (mean)
-Time per request:       2336.442 [ms] (mean)
-Time per request:       2336.442 [ms] (mean, across all concurrent requests)
-Transfer rate:          9.31 [Kbytes/sec] received
-                        8359.47 kb/s sent
-                        8368.79 kb/s total
+Total transferred:      7200 bytes
+Total body sent:        810540000
+HTML transferred:       2850 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8344.130 [ms] (mean)
+Time per request:       8344.130 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.03 [Kbytes/sec] received
+                        3162.08 kb/s sent
+                        3162.10 kb/s total
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        6    6   0.0      6       6
-Processing:  2330 2330   0.0   2330    2330
-Waiting:      315  315   0.0    315     315
-Total:       2336 2336   0.0   2336    2336
+Connect:        0    0   0.1      0       1
+Processing:  6202 8344 1550.6   8004   12102
+Waiting:     4861 6842 1481.4   6742   10579
+Total:       6203 8344 1550.6   8004   12103
+
+Percentage of the requests served within a certain time (ms)
+  50%   8004
+  66%   8961
+  75%   9430
+  80%   9722
+  90%  10754
+  95%  11370
+  98%  12103
+  99%  12103
+ 100%  12103 (longest request)

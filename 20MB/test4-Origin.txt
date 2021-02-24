@@ -9,37 +9,37 @@ Server Software:        Werkzeug/1.0.1
 Server Hostname:        t22.tfcis.org
 Server Port:            10022
 
-Document Path:          /file/upload
+Document Path:          /file/upload2
 Document Length:        95 bytes
 
 Concurrency Level:      1
-Time taken for tests:   258.067 seconds
+Time taken for tests:   239.622 seconds
 Complete requests:      30
 Failed requests:        0
 Total transferred:      7200 bytes
-Total body sent:        810539970
+Total body sent:        810540000
 HTML transferred:       2850 bytes
-Requests per second:    0.12 [#/sec] (mean)
-Time per request:       8602.238 [ms] (mean)
-Time per request:       8602.238 [ms] (mean, across all concurrent requests)
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7987.413 [ms] (mean)
+Time per request:       7987.413 [ms] (mean, across all concurrent requests)
 Transfer rate:          0.03 [Kbytes/sec] received
-                        3067.20 kb/s sent
-                        3067.22 kb/s total
+                        3303.29 kb/s sent
+                        3303.32 kb/s total
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   1.0      0       6
-Processing:  5773 8602 2437.4   8381   16897
-Waiting:     4515 7043 2320.9   6578   14956
-Total:       5773 8602 2437.2   8382   16897
+Connect:        0    0   0.1      0       0
+Processing:  6261 7987 1197.1   7564   11308
+Waiting:     4786 6503 1156.0   6107    9825
+Total:       6261 7987 1197.2   7565   11309
 
 Percentage of the requests served within a certain time (ms)
-  50%   8382
-  66%   8798
-  75%   9557
-  80%  10204
-  90%  12638
-  95%  12840
-  98%  16897
-  99%  16897
- 100%  16897 (longest request)
+  50%   7565
+  66%   7802
+  75%   8596
+  80%   9148
+  90%  10038
+  95%  10251
+  98%  11309
+  99%  11309
+ 100%  11309 (longest request)

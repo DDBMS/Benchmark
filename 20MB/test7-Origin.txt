@@ -13,33 +13,33 @@ Document Path:          /file/upload2
 Document Length:        95 bytes
 
 Concurrency Level:      1
-Time taken for tests:   237.778 seconds
+Time taken for tests:   248.361 seconds
 Complete requests:      30
 Failed requests:        0
 Total transferred:      7200 bytes
 Total body sent:        810540000
 HTML transferred:       2850 bytes
-Requests per second:    0.13 [#/sec] (mean)
-Time per request:       7925.926 [ms] (mean)
-Time per request:       7925.926 [ms] (mean, across all concurrent requests)
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8278.708 [ms] (mean)
+Time per request:       8278.708 [ms] (mean, across all concurrent requests)
 Transfer rate:          0.03 [Kbytes/sec] received
-                        3328.92 kb/s sent
-                        3328.95 kb/s total
+                        3187.06 kb/s sent
+                        3187.09 kb/s total
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       1
-Processing:  6014 7926 1798.4   7568   15290
-Waiting:     4524 6504 1703.7   6325   13598
-Total:       6014 7926 1798.4   7568   15290
+Connect:        0    0   0.0      0       0
+Processing:  6139 8278 1543.3   8071   12148
+Waiting:     4782 6774 1494.1   6599   10675
+Total:       6140 8279 1543.3   8072   12149
 
 Percentage of the requests served within a certain time (ms)
-  50%   7568
-  66%   7786
-  75%   7971
-  80%   9288
-  90%   9891
-  95%  10732
-  98%  15290
-  99%  15290
- 100%  15290 (longest request)
+  50%   8072
+  66%   8595
+  75%   9172
+  80%   9348
+  90%  11481
+  95%  11511
+  98%  12149
+  99%  12149
+ 100%  12149 (longest request)
